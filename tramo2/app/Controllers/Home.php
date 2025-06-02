@@ -11,4 +11,43 @@ class Home extends BaseController
         . view('front/principal')
         . view('front/footer_view');
     }
+
+    public function quienes_somos(): string
+    {
+        return view('front/head_view')
+        . view('front/navbar_view')
+        . view('front/quienes_somos')
+        . view('front/footer_view');
+    }
+
+    public function acercade(): string
+    {
+        return view('front/head_view')
+        . view('front/navbar_view')
+        . view('front/acercade')
+        . view('front/footer_view');
+    }
+
+    public function registro(): string
+    {
+        return view('front/head_view')
+        . view('front/navbar_view')
+        . view('front/registro')
+        . view('front/footer_view');
+    }
+
+    public function login(): string
+    {
+        return view('front/head_view')
+        . view('front/navbar_view')
+        . view('front/login')
+        . view('front/footer_view');
+    }
+
+
+
+
+
+
+
 }

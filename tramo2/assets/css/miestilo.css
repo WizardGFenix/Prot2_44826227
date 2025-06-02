@@ -1,15 +1,16 @@
 /* hoja de estilos*/
-body {
+body 
+{
     font-family: monospace, 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
-    background-color: #168baf;
-    color: #333;
+    background-color: #0c7478;
+    color: #000000;
 }
 
 header {
-    background-color:#1c1c23 ;
-    color: #e7e1e1;
+    background-color:#0a0a2e ;
+    color: #f9f6f9;
     text-align: center;
     padding: 20px 0;
 }
@@ -21,7 +22,7 @@ header {
 }
 
 nav {
-    background-color:#1c1c23 ;
+    background-color:#bc2626 ;
     padding: 10px;
 }
 
@@ -38,7 +39,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fbe3a9;
+    color: #0a0802;
     text-decoration: none;
     font-weight: bold;
     transition: all 0.3s;
@@ -60,7 +61,7 @@ section p {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background-color:#7a58f3fd;
+    background-color:#045c6ffd;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -75,13 +76,22 @@ section p {
 }
 
 footer {
-    background-color:#2583db ;
+    position: relative;
+    bottom: auto;
+    background-color:#28648f ;
+    color:#050505;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    
+    
+    /*background-color:#2583db ;
     color:#fdfafa;
     text-align: center;
     padding: 10px 0;
 
     bottom: 0;
-    width: 100%;
+    width: 100%;*/
 }
 
 
@@ -104,11 +114,11 @@ footer {
 .redes {
     text-align: center;
     padding: 15px 0;
-    background-color:#1c1c23 ; 
+    background-color:#000000 ; 
 }
 
 .redes a {
-    color:#fbe3a9;
+    color:#090806;
     font-size: 24px;
     margin: 0 15px;
     text-decoration: none;
@@ -116,7 +126,7 @@ footer {
 }
 
 .redes a:hover {
-    color: #1f6bb3; 
+    color: #b31fb3; 
     transform: scale(1.2);
 }
 
@@ -148,4 +158,24 @@ footer {
 .Crochet:hover {
     transform: scale(1.05); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-text {
+  text-align: center;
+  background-color: #69baed; 
+  padding: 10px; 
+  border-radius: 5px; 
+  border: 5px solid #010000; 
+  font-size: 18px; 
+  color: #333; 
+}
+
+.carousel-inner img {
+  max-height: 400px; 
+  object-fit: cover;
+}
+
+
+.carousel-inner {
+  margin-bottom: 50px; 
 }
